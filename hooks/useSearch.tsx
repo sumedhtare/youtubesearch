@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
-import { apiKey, cx } from "../config/config"
+import { apiKey } from "../config/config"
 
 const useSearch = () => {
     const [data, setData] = useState<any>(null);
